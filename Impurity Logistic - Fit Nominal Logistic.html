@@ -1,0 +1,132 @@
+<!doctype html public "-//W3C//DTD HTML 4.0//EN">
+<html><head><title>
+JMP Report
+</title><style>
+body { font-family: Arial, sans-serif; font-size: 12px; padding: 0; margin: 10px; }
+table { border-color: #a9a9a9; border-collapse: collapse; }
+td,th { border-color: #a9a9a9; }
+img { border: 1px solid #a9a9a9; }
+h1,h2,h3,h4,h5 { padding: 0; margin: 5px 0px; }
+</style>
+</head><body>
+
+<h2>Nominal Logistic Fit for Outcome</h2>
+
+<h3>Effect Summary</h3>
+
+<table border=1 cellpadding=2 cellspacing=1>
+<tr style="vertical-align:top" align=right><th bgcolor=#D9D9D9 align=left>Source</th><th bgcolor=#D9D9D9>LogWorth</th><th bgcolor=#D9D9D9 align=left></th><th bgcolor=#D9D9D9>PValue</th></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Catalyst Conc</td><td>4.831</td><td style="text-align:left"><img src="gfx/image3702825679RCVKqb.png" width=205 height=17><br>
+</td><td>0.00001</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Temp</td><td>2.608</td><td style="text-align:left"><img src="gfx/image370282568019a78e.png" width=205 height=17><br>
+</td><td>0.00247</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Reactor</td><td>2.529</td><td style="text-align:left"><img src="gfx/image3702825681SNX5r2.png" width=205 height=17><br>
+</td><td>0.00296</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Reaction Time</td><td>1.189</td><td style="text-align:left"><img src="gfx/image3702825682CFKJJG.png" width=205 height=17><br>
+</td><td>0.06470</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Shift</td><td>0.010</td><td style="text-align:left"><img src="gfx/image37028256831Amcn8.png" width=205 height=17><br>
+</td><td>0.97822</td></tr>
+</table><br>
+<br>
+<span style="font-size:13pt">Converged in Gradient, 8 iterations</span><br>
+<br>
+
+<h3>Whole Model Test</h3>
+
+<table border=1 cellpadding=2 cellspacing=1>
+<tr style="vertical-align:top" align=right><th bgcolor=#D9D9D9 align=left>Model</th><th bgcolor=#D9D9D9> -LogLikelihood</th><th bgcolor=#D9D9D9>DF</th><th bgcolor=#D9D9D9>ChiSquare</th><th bgcolor=#D9D9D9>Prob&gt;ChiSq</th></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Difference</td><td>39.437976</td><td>6</td><td>78.87595</td><td><font COLOR="#e57406">&lt;.0001*</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Full</td><td>17.867716</td><td></td><td></td><td></td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Reduced</td><td>57.305692</td><td></td><td></td><td></td></tr>
+</table><br>
+<br>
+
+<table border=1 cellpadding=2 cellspacing=1>
+<tr style="vertical-align:top" align=right><td style="text-align:left">RSquare (U)</td><td>0.6882</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">AICc</td><td>50.9528</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">BIC</td><td>67.9716</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Observations (or Sum Wgts)</td><td>100</td></tr>
+</table><br>
+
+<h3>Fit Details</h3>
+
+<table border=1 cellpadding=2 cellspacing=1>
+<tr style="vertical-align:top" align=right><th bgcolor=#D9D9D9 align=left>Measure</th><th bgcolor=#D9D9D9>Training</th><th bgcolor=#D9D9D9 align=left>Definition</th></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Entropy RSquare</td><td>0.6882</td><td style="text-align:left">1-Loglike(model)/Loglike(0)</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Generalized RSquare</td><td>0.7998</td><td style="text-align:left">(1-(L(0)/L(model))^(2/n))/(1-L(0)^(2/n))</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Mean -Log p</td><td>0.1787</td><td style="text-align:left">&#8721; -Log(&#961;[j])/n</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">RASE</td><td>0.2349</td><td style="text-align:left">&#8730; &#8721;(y[j]-&#961;[j])&#178;/n</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Mean Abs Dev</td><td>0.1107</td><td style="text-align:left">&#8721; |y[j]-&#961;[j]|/n</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Misclassification Rate</td><td>0.0700</td><td style="text-align:left">&#8721; (&#961;[j]&#8800;&#961;Max)/n</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">N</td><td>100</td><td style="text-align:left">n</td></tr>
+</table><br>
+
+<h3>Lack Of Fit</h3>
+
+<table border=1 cellpadding=2 cellspacing=1>
+<tr style="vertical-align:top" align=right><th bgcolor=#D9D9D9 align=left>Source</th><th bgcolor=#D9D9D9>DF</th><th bgcolor=#D9D9D9> -LogLikelihood</th><th bgcolor=#D9D9D9>ChiSquare</th></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Lack Of Fit</td><td>93</td><td>17.867716</td><td>35.73543</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Saturated</td><td>99</td><td>0.000000</td><td><b>Prob&gt;ChiSq</b></td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Fitted</td><td>6</td><td>17.867716</td><td>1.0000</td></tr>
+</table><br>
+
+<h3>Parameter Estimates</h3>
+
+<table border=1 cellpadding=2 cellspacing=1>
+<tr style="vertical-align:top" align=right><th bgcolor=#D9D9D9 align=left>Term</th><th bgcolor=#D9D9D9>Estimate</th><th bgcolor=#D9D9D9>Std Error</th><th bgcolor=#D9D9D9>ChiSquare</th><th bgcolor=#D9D9D9>Prob&gt;ChiSq</th></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Intercept</td><td>23.426753</td><td>37.236434</td><td>0.40</td><td>0.5293</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Temp</td><td> -2.6076776</td><td>1.001375</td><td>6.78</td><td><font COLOR="#e57406">0.0092*</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Catalyst Conc</td><td> -6.2935436</td><td>2.0614462</td><td>9.32</td><td><font COLOR="#e57406">0.0023*</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Reaction Time</td><td>0.66909445</td><td>0.4024643</td><td>2.76</td><td>0.0964</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Reactor[1]</td><td>1.43348404</td><td>0.8400676</td><td>2.91</td><td>0.0879</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Reactor[2]</td><td>0.53800789</td><td>0.7637796</td><td>0.50</td><td>0.4812</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Shift[1]</td><td> -0.013528</td><td>0.4957457</td><td>0.00</td><td>0.9782</td></tr>
+</table><br>
+<br>
+<span style="font-size:13pt">For log odds of Pass/Fail</span><br>
+<br>
+<br>
+
+<h3>Effect Likelihood Ratio Tests</h3>
+
+<table border=1 cellpadding=2 cellspacing=1>
+<tr style="vertical-align:top" align=right><th bgcolor=#D9D9D9 align=left>Source</th><th bgcolor=#D9D9D9>Nparm</th><th bgcolor=#D9D9D9>DF</th><th bgcolor=#D9D9D9>L-R ChiSquare</th><th bgcolor=#D9D9D9>Prob&gt;ChiSq</th></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Temp</td><td>    1</td><td>1</td><td>9.16508615</td><td><font COLOR="#e57406">0.0025*</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Catalyst Conc</td><td>    1</td><td>1</td><td>18.7687759</td><td><font COLOR="#e57406">&lt;.0001*</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Reaction Time</td><td>    1</td><td>1</td><td>3.41271141</td><td>0.0647</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Reactor</td><td>    2</td><td>2</td><td>11.6475511</td><td><font COLOR="#e57406">0.0030*</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Shift</td><td>    1</td><td>1</td><td>0.00074552</td><td>0.9782</td></tr>
+</table><br>
+
+<h3>Confusion Matrix</h3>
+<span style="font-size:13pt">Training</span><br>
+
+<table border=1 cellpadding=2 cellspacing=1>
+<tr style="vertical-align:top" align=right><th align=center>Actual</th><th align=center COLSPAN=2>Predicted Count</th>
+<tr style="vertical-align:top" align=right><th bgcolor=#D9D9D9 align=left>Outcome</th><th bgcolor=#D9D9D9>Pass</th><th bgcolor=#D9D9D9>Fail</th></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Pass</td><td>71</td><td>3</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Fail</td><td>4</td><td>22</td></tr>
+</table><br>
+
+<table border=1 cellpadding=2 cellspacing=1>
+<tr style="vertical-align:top" align=right><th align=center>Actual</th><th align=center COLSPAN=2>Predicted Rate</th>
+<tr style="vertical-align:top" align=right><th bgcolor=#D9D9D9 align=left>Outcome</th><th bgcolor=#D9D9D9>Pass</th><th bgcolor=#D9D9D9>Fail</th></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Pass</td><td>0.959</td><td>0.041</td></tr>
+<tr style="vertical-align:top" align=right><td style="text-align:left">Fail</td><td>0.154</td><td>0.846</td></tr>
+</table><br>
+
+<h3>Prediction Profiler</h3>
+
+<table border=0 cellpadding=0 cellspacing=0>
+<tr>
+<td align=left style="vertical-align:top">
+</td>
+<td align=left style="vertical-align:top">
+</td>
+</tr>
+</table><br>
+<br>
+<img src="gfx/image3702825684ru5WVN.png" width=585 height=160><br>
+<br>
+
+</body></html>
